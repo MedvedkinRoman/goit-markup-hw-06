@@ -865,13 +865,17 @@ footer .social-list-icon {
 }
 
 .modal-form-field {
-  margin-top: 4px;
   margin-bottom: 10px;
+}
+
+.modal-form-field:nth-last-child(4) {
+  margin-bottom: 20px;
 }
 
 .modal-form-input-wrapper {
   position: relative;
   display: block;
+  margin-top: 4px;
 }
 
 .modal-form-icon {
@@ -894,7 +898,6 @@ footer .social-list-icon {
   box-sizing: border-box;
   border-radius: 4px;
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .modal-form-massege::placeholder {
@@ -968,8 +971,3 @@ footer .social-list-icon {
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
-
-/* .modal-form-btn::focus {
-  outline: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-} */
