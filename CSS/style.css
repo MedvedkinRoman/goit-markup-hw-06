@@ -727,18 +727,14 @@ footer .social-list-icon {
   color: #fff;
 }
 
-/* .subscribe-button::focus {
-  outline: none;
-} */
-
 .subscribe-icon {
   position: absolute;
   fill: #fff;
   width: 24px;
   height: 24px;
   top: 50%;
-  transform: translateY(-50%);
   right: 28px;
+  transform: translateY(-50%);
 }
 
 /* ============ end footer ============ */
